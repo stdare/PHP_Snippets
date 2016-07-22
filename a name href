@@ -5,7 +5,7 @@
 <h3>Links: <a href="#top">Top</a> | <a href="#middle">Middle</a> | <a href="#bottom">Bottom</a></h3>
 
 <p>Notes:<br>
-Notice the name="" tags that appear on line 4 and in other places down the page.<br>
+Notice the id="" tags that appear on line 4 and in other places down the page.<br>
 These are named anchors which you can create hyperlinks to.<br>
 In the navigation bar, notice how I have linked to #top, which is the named anchor included in the H1 tag on line 4.</p>
 As Darth Vader would say, "All too easy"
