@@ -1,0 +1,29 @@
+<html>
+<!--This file shows how to create a hyperlink to a point further down your HMTL page-->
+<head><title>Linking to anchors on a HTML page</title></head>
+<h1 id="top">How to link to points on a HTML page</h1>
+<h3>Links: <a href="#top">Top</a> | <a href="#middle">Middle</a> | <a href="#bottom">Bottom</a></h3>
+
+<p>Notes:<br>
+Notice the name="" tags that appear on line 4 and in other places down the page.<br>
+These are named anchors which you can create hyperlinks to.<br>
+In the navigation bar, notice how I have linked to #top, which is the named anchor included in the H1 tag on line 4.</p>
+As Darth Vader would say, "All too easy"
+
+<p>An image to fill up the page a bit.....<br>
+<img src="http://cdn.bleedingcool.net/wp-content/uploads/2016/06/darth-vader.jpg">
+
+<!--This section has the named anchor 'middle'-->
+<h3 id="middle">This is the Middle section</h3>
+Try the link from the navbar above to this point.
+<p>And another image to take up some space....<br>
+<img src="http://cdn.idigitaltimes.com/sites/idigitaltimes.com/files/styles/large/public/2015/10/27/luke-skywalker-star-wars-force-awakens.jpg"><br>
+Go back to <a href="#top">top</a>
+
+<!--This section has the named anchor 'bottom' snigger snigger-->
+<h3 id="bottom">This is the Bottom section</h3>
+Try the link from the navbar above to this point.
+<p>And another image to take up some space....<br>
+<img src="http://www.betches.com/sites/default/files/article/list/images/bacahai.jpg"><br>
+Go back to <a href="#top">top</a>
+
