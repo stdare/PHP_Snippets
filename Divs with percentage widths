@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Using a container DIV</title>
+</head>
+<body bgcolor="lightgrey">
+<!--There are 5 divs in all, a header div, a blue container div and two within that one. A gutter on the bottom.-->
+<div style="margin: 0pt auto; background-color:white; width: 75%; height: 200px; padding:5px">
+<h2>This example shows how to use multiple divs inside other divs using percentage widths so the divs adjust to the size of the browser window.</h2>
+
+<p>The first div sets a heading for the page</p> 
+</div>
+<div style="margin: 0pt auto; background-color:lightblue; width: 76%; height: 320px;">
+<div style="position:relative; float:left; width: 75%; height: 290px; background-color:red; border-radius:15px; padding:5px">
+<br>div no 2 is the blue one which the next two are sitting in.  The height and width start to become very important</h2>
+</div>
+<div style="position:relative; float:right; width: 22%; height: 290px; background-color:oldlace; border-radius:15px; padding:5px">
+<p>div 3 and 4 are the red and buff ones.  Notice that I have used the position and float options to place them side by side.</p>
+When you resize the window, note that at some point the divs can no longer fit side by side.  So use divs beside each other with caution.
+
+</div>
+</div>
+<div style="margin: 0pt auto; background-color:white; width: 75%; height: 100px; padding:5px">
+Just for good measure, a gutter div to round things off....
+</div>
+</html>
