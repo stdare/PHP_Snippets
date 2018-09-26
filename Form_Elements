@@ -7,7 +7,8 @@
 
 Type something: 
 <input type="text" name="HTMLlabel" size="20" />
-<!-- I am using 'HTMLlabel' for name throughout the template to make a point. Obviously these will be different for each form option in your work -->
+<!-- I am using 'HTMLlabel' for name throughout the template to make a point. 
+Obviously these will be different for each form option in your work -->
 
 <h4>The dropdown</h4>
 Choose something: 
