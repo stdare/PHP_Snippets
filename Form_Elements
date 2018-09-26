@@ -1,0 +1,36 @@
+<html><head><title>HTML Form Snippets</title></head><body>
+<h2>Form Elements Template</h2>
+<h4>The textbox</h4>
+
+<form action="filename.php" method="post"> 
+<!--set the action to filename where you will process the input using PHP-->
+
+Type something: 
+<input type="text" name="HTMLlabel" size="20" />
+<!-- I am using 'HTMLlabel' for name throughout the template to make a point. Obviously these will be different for each form option in your work -->
+
+<h4>The dropdown</h4>
+Choose something: 
+<select name="HTMLlabel" />
+<option value="Thing1">Thing 1</option>
+<option value="Thing2">Thing 2</option>
+<option value="Thing3">Thing 3</option>
+</select>
+
+<h4>The radio</h4>
+Click something: 
+<input type="radio" name="HTMLlabel" value="Thing1" /> Thing 1
+<input type="radio" name="HTMLlabel" value="Thing2" /> Thing 2
+<input type="radio" name="HTMLlabel" value="Thing3" /> Thing 3
+
+<h4>The textarea</h4>
+Type a big something: <br>
+<textarea name="HTMLlabel" rows="3" cols="30"></textarea>
+
+<h4>The Submit</h4>
+Click something<br>
+<input type="submit" name="submit" value="Submit" />
+<input type="reset" name="clear" value="Reset" />
+
+</form>
+</body></html>
